@@ -9,8 +9,8 @@
     <ProjectGuid>{1563E19D-3E01-409E-AEE2-7E37F235E157}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyProjects</RootNamespace>
-    <AssemblyName>MyProjects</AssemblyName>
+    <RootNamespace>Problems.Tests</RootNamespace>
+    <AssemblyName>Problems.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,8 +54,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Projects\HackerEarthProblems.csproj">
-      <Project>{38cbeb32-e865-4ff0-a1dc-30171286492a}</Project>
+    <ProjectReference Include="..\HackerEarthProblems\HackerEarthProblems.csproj">
+      <Project>{41cdb149-0366-4fa8-902a-d2545924f4ba}</Project>
       <Name>HackerEarthProblems</Name>
     </ProjectReference>
   </ItemGroup>

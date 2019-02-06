@@ -1,8 +1,8 @@
 ﻿using System;
+using HackerEarthProblems;
 using NUnit.Framework;
-using Projects;
 
-namespace MyProjects
+namespace Problems.Tests
 {
     [TestFixture]
     public class SeatingArrangementTest
