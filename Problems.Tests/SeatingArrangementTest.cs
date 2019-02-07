@@ -2,7 +2,7 @@
 using HackerEarthProblems;
 using NUnit.Framework;
 
-namespace Problems.Tests
+namespace Solutions.Tests
 {
     [TestFixture]
     public class SeatingArrangementTest

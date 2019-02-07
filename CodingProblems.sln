@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerEarthProblems", "HackerEarthProblems\HackerEarthProblems.csproj", "{41CDB149-0366-4FA8-902A-D2545924F4BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solutions", "HackerEarthProblems\Solutions.csproj", "{41CDB149-0366-4FA8-902A-D2545924F4BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problems.Tests", "Problems.Tests\Problems.Tests.csproj", "{1563E19D-3E01-409E-AEE2-7E37F235E157}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solutions.Tests", "Problems.Tests\Solutions.Tests.csproj", "{1563E19D-3E01-409E-AEE2-7E37F235E157}"
 	ProjectSection(ProjectDependencies) = postProject
 		{41CDB149-0366-4FA8-902A-D2545924F4BA} = {41CDB149-0366-4FA8-902A-D2545924F4BA}
 	EndProjectSection
