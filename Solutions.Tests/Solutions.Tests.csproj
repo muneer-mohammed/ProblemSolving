@@ -55,8 +55,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HackerEarthProblems\Solutions.csproj">
-      <Project>{41cdb149-0366-4fa8-902a-d2545924f4ba}</Project>
+    <ProjectReference Include="..\Solutions\Solutions.csproj">
+      <Project>{b32b90b6-9b6f-447e-9d73-591fdfd30087}</Project>
       <Name>Solutions</Name>
     </ProjectReference>
   </ItemGroup>

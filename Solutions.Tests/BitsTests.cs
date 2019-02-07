@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HackerEarthProblems;
 using NUnit.Framework;
 
 namespace Solutions.Tests

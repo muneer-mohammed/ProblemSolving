@@ -1,6 +1,6 @@
 ﻿using System;
-using HackerEarthProblems;
 using NUnit.Framework;
+using Solutions.HackerEarth;
 
 namespace Solutions.Tests
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GeeksProblems
+namespace Solutions.GeeksProblems
 {
     public class Bits
     {
