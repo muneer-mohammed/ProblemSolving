@@ -1,6 +1,9 @@
 #include "pch.h"
+#include "../SolutionsCPP/BinaryTree.h"
+/*https://www.geeksforgeeks.org/find-the-minimum-element-in-a-binary-search-tree/*/
+TEST(TestCaseName, FindNodeWithMinimumValueInBST) {
+	BinaryTree* obj = new BinaryTree();
+	obj->FindNodeWithMinimumValueInBST();
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
-}
+	EXPECT_TRUE(true);
+} 

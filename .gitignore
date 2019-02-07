@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Solutions/obj
+/.vs
+/SolutionsCPP.Tests/Debug
+/SolutionsCPP/Debug
+/Solutions.Tests/obj/Debug
+/Solutions.Tests/bin/Debug
+/Solutions/bin/Debug/netstandard2.0
+/packages
+/Debug
+/CodingProblems.sln.DotSettings.user
+*.user
