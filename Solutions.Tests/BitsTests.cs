@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
+using Solutions.Geeks;
 
 namespace Solutions.Tests
 {
@@ -13,8 +14,7 @@ namespace Solutions.Tests
         /*  https://www.geeksforgeeks.org/image-processing-java-set-2-get-set-pixels/
         */
         [Test] 
-        [TestCase(18, 19, "WS")]
-        public void ShiftRight_Number_ShiftedNumber(int seatNo, int expectedSeat, string expectedSeatTye)
+        public void ShiftRight_Number_ShiftedNumber()
         { 
             int a = 255;
             int r = 100;
@@ -49,5 +49,38 @@ namespace Solutions.Tests
             Assert.AreEqual(g, g2);
             Assert.AreEqual(b, b2);
         }
+
+        [Test]
+        public void GetAverageOfRGB_ARGB_ReturnsAverageRGB()
+        {
+            CustomImage cImage = new CustomImage();
+            int a = 255;
+            int r = 100;
+            int g = 150;
+            int b = 200;
+            int pixel = (a << 24) | (r << 16) | (g << 8) | b;
+
+            int avgRGB = cImage.GetAverageOfRGB(pixel);
+            Assert.AreEqual(150, avgRGB);
+        }
+
+        [Test]
+        public void ConvertColorToGreyscalImage_ColorImage_ReturnsGreyScaleImage()
+        {
+            CustomImage cImage = new CustomImage();
+            int a = 255;
+            int r = 100;
+            int g = 150;
+            int b = 200;
+            int pixel = (a << 24) | (r << 16) | (g << 8) | b;
+
+            int avgRGB = cImage.GetAverageOfRGB(pixel);
+            int greyScalePixel = cImage.ConvertColorToGreyScalePixel(pixel);
+
+            int avgRGB2 = (greyScalePixel) & 0xff;
+            Assert.AreEqual(avgRGB2, avgRGB);
+            Assert.AreEqual(-6908266, greyScalePixel);
+        }
     }
 }
+   
