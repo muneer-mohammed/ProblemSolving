@@ -13,3 +13,7 @@
 /Debug
 /CodingProblems.sln.DotSettings.user
 *.user
+/SolutionsDotNet/bin/Debug
+/SolutionsDotNet/obj/Debug
+/WpfApp/bin/Debug
+/WpfApp/obj/Debug

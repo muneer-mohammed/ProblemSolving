@@ -1,0 +1,41 @@
+﻿1.[PROBLEM] Segregate 0s and 1s in an array
+[SOLUTION] Approach: Have two integers for zero and one, incrementing each based on the respective number in array.
+Once array end is reached, print zero's and one's based on integers count.
+
+Timecomplexity: O(n)
+
+2.[PROBLEM] Segregate Even and Odd numbers
+[SOLUTION]
+n%2 == 0 -> Even
+n%2 != 0 -> Odd
+
+if only one output array should be used.
+x=0;
+y=n-1;
+for(int i = 0; i< n; i++)
+{
+   if(a[i]%2 == 0)
+    {
+	   k[x] = a[i];
+	   x = x+1;
+	}
+	else
+	{
+	  k[y] = a[i];
+	  y = y - 1;
+	}
+}
+
+3. [PROBLEM] Program to Count numbers on fingers
+https://www.geeksforgeeks.org/program-count-numbers-fingers/
+Count the given numbers on your fingers and find the correct finger on which the number ends.
+
+The first number starts from the thumb, second on the index finger, third on the middle finger, fourth on the ring finger and fifth on the little finger.
+Again six comes on the ring finger and so on.
+Examples:
+
+Input : 17
+Output :1
+
+Input :27
+Output :3
